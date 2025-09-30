@@ -1,0 +1,2702 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grocery website</title>
+    <style>
+        .body {
+            margin: 0%;
+            padding: 0%;
+        }
+
+        .main-container {
+            height: 100vh;
+            width: 100vw;
+
+        }
+
+        /* pages */
+
+        /* page-one */
+        .pageone {
+            background-color: aqua;
+            display: flex;
+            flex-direction: row;
+            height: 100%;
+            width: 100%;
+        }
+
+        /* left-gap */
+
+
+        /* main-center */
+        .center {
+            height: 100%;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+
+        /* centerk child */
+        /*first header */
+        .header {
+            height: 7%;
+            width: 100%;
+            background-color: rgb(149, 92, 255);
+            display: flex;
+            flex-direction: row;
+        }
+
+        .shop-name {
+            height: 100%;
+            width: 50%;
+            background: linear-gradient(#1f0373);
+            display: flex;
+            font-size: 30px;
+            align-items: center;
+            color: white;
+
+
+
+        }
+
+        .s-name {
+            margin-left: 10%;
+        }
+
+        .name-bar {
+            height: 100%;
+            width: 50%;
+            background: linear-gradient(#1f0373);
+            display: flex;
+            flex-direction: row;
+            color: white;
+            gap: 60px;
+            align-items: center;
+            justify-content: center;
+        }
+
+
+        /*first main */
+        .main {
+            height: 63%;
+            width: 100%;
+            background-color: wheat;
+            background-image: url(https://pandansocial.com/wp-content/uploads/2021/09/Is-The-Grocery-Store-Industry-Ripe-for-Digital-Innovation_.jpg);
+            background-position: center;
+            background-size: cover;
+
+        }
+
+        .main-name-bar {
+
+            height: 10%;
+            width: 50%;
+            background: linear-gradient(rgb(117, 184, 117), white);
+            display: flex;
+            flex-direction: row;
+            gap: 60px;
+            margin-left: 50%;
+            align-items: center;
+            justify-content: center;
+            display: none;
+        }
+
+        /* main-small box */
+        .shop-black-opacity {
+            height: 100%;
+            width: 100%;
+            background-color: rgba(0, 0, 0, 0.356);
+            text-align: center;
+            font-size: 30px;
+        }
+
+        /*  */
+
+        .sd {
+            height: 20%;
+            width: 25%;
+            background-color: rgb(232, 232, 133);
+            font-size: 25px;
+            color: rgb(0, 0, 0);
+            border: 1px solid white;
+            border-radius: 12px;
+
+        }
+
+        .sds {
+            height: 20%;
+            width: 25%;
+            background-color: rgb(68, 169, 68);
+            font-size: 25px;
+            color: white;
+            border-radius: 12px;
+            border: 1px solid white;
+
+        }
+
+
+        .shop-text {
+            height: 40%;
+            width: 35%;
+            background-color: rgba(0, 0, 0, 0.483);
+            margin-left: 35%;
+            color: white;
+
+
+
+        }
+
+        /* header-button */
+        .header-buttonn {
+            border-radius: 12px;
+            height: 80%;
+            width: 10%;
+            text-align: center;
+            font-size: 20px;
+            background-color: rgb(255, 204, 0);
+
+        }
+
+        .header-button {
+            border-radius: 12px;
+            height: 80%;
+            width: 10%;
+            text-align: center;
+            font-size: 20px;
+            opacity: 100%;
+
+        }
+
+        .header-button:hover {
+            opacity: 100%;
+            background-color: rgb(255, 196, 0);
+        }
+
+        /* header-button-text */
+
+
+        /* first-footer */
+        .footer {
+            height: 30%;
+            width: 100%;
+            background-color: cadetblue;
+            display: flex;
+            flex-direction: column;
+        }
+
+        /* footer-child */
+        /* footer text */
+        .footer-text {
+            height: 25%;
+            width: 100%;
+            background-color: blue;
+        }
+
+        /* footer img */
+        .footer-img {
+            height: 75%;
+            width: 100%;
+            background-color: rgb(241, 235, 235);
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            gap: 30px;
+
+
+
+
+
+        }
+
+        .first-footer-img {
+            height: 100%;
+            width: 100%;
+
+            border-radius: 100%;
+        }
+
+        /* footer img child */
+        .img {
+            height: 70%;
+            width: 10%;
+            margin-top: 2%;
+            border-radius: 100%;
+            border: 1px solid rgb(201, 181, 181);
+        }
+
+        .boxone {
+            background-color: rgb(255, 255, 255);
+
+        }
+
+        .boxtwo {
+            background-color: rgb(255, 255, 255);
+        }
+
+        .boxthree {
+            background-color: rgb(255, 255, 255);
+        }
+
+        .boxfour {
+            background-color: rgb(255, 255, 255);
+        }
+
+        .boxfive {
+            background-color: rgb(255, 255, 255);
+        }
+
+        .boxsix {
+            background-color: rgb(255, 255, 255);
+        }
+
+        /* right-gap */
+
+
+
+
+
+        /* page-one finish */
+        /* page-one-finish */
+
+        /* page-two */
+        .pagetwo {
+            background-color: rgb(247, 242, 242);
+            display: flex;
+            flex-direction: row;
+            height: 100%;
+            width: 100%;
+        }
+
+        .second-center {
+            height: 100%;
+            width: 100%;
+
+            display: flex;
+            flex-direction: column;
+        }
+
+        /* second-child */
+        .second-header {
+            height: 30%;
+            width: 100%;
+            background-color: rebeccapurple;
+        }
+
+        /* second-header img child */
+        .longimg {
+            width: 100%;
+            height: 100%;
+
+        }
+
+        /* text */
+        .second-text {
+            height: 10%;
+            width: 100%;
+            background-color: rgb(255, 255, 255);
+
+        }
+
+        .category-text {
+            text-align: center;
+            font-family: cursive;
+            font-size: 30px;
+            background-color: rgb(11, 4, 108);
+            color: rgb(255, 255, 255);
+            margin-top: 10px;
+        }
+
+        /* card page two */
+        .second-main {
+            height: 60%;
+            width: 100%;
+            background-color: rgb(217, 255, 159);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        /* child */
+        .second-main-rowone {
+            height: 40%;
+            width: 100%;
+
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+
+        /* second-main-rowone-child */
+        .product-cards {
+            height: 95%;
+            width: 20%;
+            display: flex;
+            flex-direction: column;
+
+
+
+        }
+
+        .cardone {
+            background-color: rgb(167, 167, 215);
+
+
+
+        }
+
+        .cardtwo {
+            background-color: rgb(255, 255, 255);
+
+
+        }
+
+        .cardthree {
+
+            background-color: rgb(255, 247, 0);
+
+        }
+
+        .cardfour {
+            background-color: rgb(255, 0, 221);
+
+
+        }
+
+        /* second-page card-image */
+        .card-img {
+            height: 100%;
+            width: 100%;
+            background-color: rgb(142, 169, 86);
+
+        }
+
+        /*second-page card-text */
+
+        /* second-page-card-image */
+        .card-img-hw {
+            height: 100%;
+            width: 100%;
+
+        }
+
+        .second-main-rowtwo {
+            height: 40%;
+            width: 100%;
+
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+
+
+        /* page-two-finisg */
+        /* page-two-finish */
+        /* page-three */
+        .pagethree {
+
+            display: flex;
+            flex-direction: row;
+            height: 100%;
+            width: 100%;
+        }
+
+
+
+        .three-center {
+            height: 100%;
+            width: 100%;
+
+            display: flex;
+            flex-direction: column;
+        }
+
+        /* third center child */
+        .third-text {
+            height: 5%;
+            width: 100%;
+            background-color: rgb(10, 5, 105);
+            text-align: center;
+            font-size: 25px;
+            font-family: cursive;
+
+            color: white;
+        }
+
+        .third-card-row-two {
+            height: 25%;
+            width: 100%;
+            ;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            background-color: rgb(204, 232, 147);
+            align-items: center;
+            font-family: cursive;
+
+        }
+
+        .third-secondtext {
+            height: 10%;
+            width: 100%;
+            color: white;
+            text-align: center;
+            font-size: 25px;
+            font-family: cursive;
+            background-color: rgb(3, 18, 100);
+
+
+        }
+
+        /* child */
+        /* third product card row one */
+        .third {
+            height: 90%;
+            width: 100%;
+
+        }
+
+        /* third card child */
+        .productone {
+            background-color: bisque;
+        }
+
+        .producttwo {
+            background-color: wheat;
+        }
+
+        .productthree {
+            background-color: blue;
+        }
+
+        .productfour {
+            background-color: tomato;
+        }
+
+        .productfive {
+            background-color: slategray;
+        }
+
+        .productsix {
+            background-color: springgreen;
+        }
+
+        /* third card row tow finish */
+        .third-card-row-three {
+            height: 30%;
+            width: 100%;
+            background-color: rgb(204, 232, 147);
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: center;
+
+        }
+
+        .thirdcard {
+            height: 90%;
+            width: 18%;
+        }
+
+        /* child */
+        .barone {
+            background-color: rgb(255, 255, 255);
+        }
+
+        .bartwo {
+            background-color: rgb(255, 255, 255);
+        }
+
+        .barthree {
+            background-color: rgb(255, 255, 255);
+        }
+
+        .barfour {
+            background-color: rgb(255, 255, 255);
+        }
+
+        .barfive {
+            background-color: rgb(255, 255, 255);
+        }
+
+        /* child */
+        .thirdcard-img {
+            height: 80%;
+            width: 100%;
+
+        }
+
+        .thirdcard-text {
+            height: 20%;
+            width: 100%;
+
+        }
+
+        /* third card row four finish */
+        .third-card-row-four {
+            height: 35%;
+            width: 100%;
+            background-color: rgb(204, 232, 147);
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: center;
+
+        }
+
+
+
+
+        /* third small box img */
+        .third img {
+            height: 100%;
+            width: 100%;
+        }
+
+        .third-imgg {
+            height: 100%;
+            width: 100%;
+        }
+
+        .span-text {
+            margin-left: 29%;
+            font-size: 20px;
+            font-family: cursive;
+        }
+
+
+
+
+        /* page three finish */
+        /* page three finish */
+        /* page-four */
+        .pagefour {
+            background-color: rgb(189, 17, 17);
+            height: 100%;
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+        }
+
+        /* gap left pagefour */
+
+
+        .center-four {
+            height: 100%;
+            width: 100%;
+            background-color: rgb(123, 31, 112);
+        }
+
+        .header-four {
+            height: 5%;
+            width: 100%;
+            background-color: rgb(185, 185, 185);
+            display: flex;
+            align-items: center;
+
+        }
+
+        .header-one {
+            height: 50%;
+            width: 70%;
+            ;
+
+        }
+
+        i {
+            font-size: 25px;
+            margin-left: 60%;
+            color: rgb(0, 0, 0);
+        }
+
+        /* header finish */
+
+
+        /* first row */
+        .row-one {
+            height: 100%;
+            width: 100;
+            background-color: rgb(255, 255, 255);
+            display: flex;
+            flex-direction: row;
+        }
+
+
+
+        /* navigation bar finish */
+        .right-box {
+            height: 100%;
+            width: 100%;
+            background-color: #ffffffdd;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .card-row-one {
+            height: 32%;
+            width: 100%;
+            background-color: #e6e6e6c8;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+
+
+        }
+
+        /* product card */
+        .card {
+            height: 80%;
+            width: 15%;
+
+            margin-top: 1%;
+            display: flex;
+            flex-direction: column;
+
+        }
+
+
+        .box {
+            background: linear-gradient(rgb(255, 255, 255), rgb(255, 255, 255));
+        }
+
+        .boxx {
+            background: linear-gradient(rgb(255, 255, 255), rgb(255, 255, 255));
+        }
+
+        .boxxx {
+            background: linear-gradient(rgb(255, 255, 255), rgb(255, 255, 255));
+        }
+
+        .boxxxx {
+            background: linear-gradient(rgb(255, 255, 255), rgb(255, 255, 255));
+        }
+
+        .image {
+            height: 80%;
+            width: 100%;
+            background-color: rgb(255, 191, 191);
+
+        }
+
+        .image-text {
+            height: 20%;
+            width: 100%;
+            background-color: #ffffff;
+
+        }
+
+        /* row two */
+        .card-row-two {
+            height: 90%;
+            width: 100%;
+            background-color: #e6e6e6b0;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+        }
+
+        .card-row-three {
+            height: 90%;
+            width: 100%;
+            background-color: #d6d6d692;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+        }
+
+        .cards {
+            height: 80%;
+            width: 15%;
+            margin-top: 1%;
+
+
+        }
+
+        .first {
+            background: linear-gradient(rgb(255, 255, 255), rgb(203, 108, 108));
+        }
+
+        .dsp {
+            background-color: yellow;
+        }
+
+        /* card-img */
+        .card-img {
+            height: 100%;
+            width: 100%;
+            border-radius: 0px;
+
+
+
+        }
+
+        .text {
+            font-size: 20px;
+            margin-left: 20%;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+
+
+
+        /* page four finish */
+        /* page four finish */
+        /* page five */
+
+        .page-five {
+            height: 70%;
+            width: 100%;
+            background-color: yellow;
+            display: flex;
+            flex-direction: row;
+        }
+
+
+        .center-five {
+            height: 100%;
+            width: 100%;
+            background-color: rgb(255, 255, 255);
+        }
+
+        /* long img */
+        .five-header {
+            height: 40%;
+            width: 100%;
+            background-color: rgb(181, 123, 16);
+        }
+
+        /* five main card */
+        .five-main-card {
+            height: 60%;
+            width: 100%;
+            background-color: rgb(204, 232, 147);
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            justify-content: space-around;
+
+        }
+
+        /* card-one */
+        .five-card-one {
+            height: 70%;
+            width: 18%;
+            background: linear-gradient(rgb(255, 255, 255), rgb(85, 195, 79));
+        }
+
+        .five-card-two {
+            height: 70%;
+            width: 18%;
+            background: linear-gradient(rgb(255, 255, 255), rgb(82, 187, 196));
+        }
+
+        .five-card-three {
+            height: 70%;
+            width: 18%;
+            background: linear-gradient(rgb(255, 255, 255), rgb(201, 134, 168));
+        }
+
+        .five-card-four {
+            height: 70%;
+            width: 18%;
+            background: linear-gradient(rgb(255, 255, 255), rgb(252, 53, 3));
+        }
+
+        .five-card-five {
+            height: 70%;
+            width: 18%;
+            background: linear-gradient(rgb(255, 255, 255), rgb(18, 3, 112));
+        }
+
+        /* gar right five */
+
+
+        /* five img */
+        .five-img {
+            height: 100%;
+            width: 100%;
+            align-items: center;
+
+        }
+
+        /* page five finish */
+        /* page five finish */
+        /* page-six */
+        .page-six {
+            height: 50%;
+            width: 100%;
+            background-color: #d32d2d;
+            display: flex;
+            flex-direction: row;
+        }
+
+
+
+
+        .six-center {
+            height: 100%;
+            width: 100%;
+            background-color: #d32d2d;
+        }
+
+        /* six header */
+        .six-header {
+            height: 10%;
+            width: 100%;
+            background-color: rgb(188, 188, 188);
+        }
+
+        /* visit page-information */
+        .visit {
+            height: 90%;
+            width: 100%;
+            background-color: slateblue;
+            display: flex;
+            flex-direction: row;
+        }
+
+        /* child */
+        .visit-one {
+            height: 100%;
+            width: 80%;
+            background-color: rgb(231, 231, 231);
+        }
+
+        .visit-two {
+            height: 100%;
+            width: 20%;
+            background-color: rgb(207, 207, 207);
+        }
+
+        /* information-text */
+        .information-text {
+            text-align: center;
+            font-size: 30px;
+        }
+
+        /* visit-text */
+        .visit-textt {
+            text-align: center;
+            margin-top: 10%;
+            font-size: 20px;
+        }
+
+        /* visit button */
+        .visit-button {
+            margin-top: 50%;
+            text-align: center;
+            margin-left: 20%;
+            height: 15%;
+            width: 60%;
+            font-size: 20px;
+            border-radius: 20px;
+            background-color: red;
+            color: white;
+
+        }
+
+
+
+
+
+
+        /* page six finish */
+        /* page six finish */
+        /* page seven        */
+
+
+        /* .contact-page */
+
+        /* .contact-page */
+
+        .contact-page {
+            width: 100%;
+            height: 50%;
+            background-color: white;
+            display: flex;
+            flex-direction: column;
+            margin: 0%;
+            padding: 0%;
+        }
+
+        .contact-section {
+            width: 100vw;
+            height: 50vh;
+            background-color: white;
+            display: flex;
+            flex-direction: column;
+
+        }
+
+        .cs-heading {
+            width: 100vw;
+            height: 10vh;
+            text-align: center;
+            font-size: 30px;
+        }
+
+        .cs-name {
+            width: 100vw;
+            height: 40vh;
+            background-color: white;
+            display: flex;
+            flex-direction: row;
+        }
+
+        .cs-gmail {
+            width: 25vw;
+            height: 40vh;
+            background-color: white;
+
+        }
+
+        .image-one {
+            margin-left: 34%;
+        }
+
+        .Email {
+            margin-left: 38%;
+            font-size: 24px;
+        }
+
+        .gmail {
+            margin-left: 20%;
+            font-size: 22px;
+        }
+
+        .cs-whats-app {
+            width: 25vw;
+            height: 40vh;
+            background-color: white;
+        }
+
+        .whats-app {
+            margin-left: 34%;
+            font-size: 22px;
+        }
+
+        .mobile-number-one {
+            margin-left: 32%;
+            font-size: 22px;
+        }
+
+        .cs-contact {
+            width: 25vw;
+            height: 40vh;
+            background-color: white;
+        }
+
+        .contact {
+            margin-left: 38%;
+            font-size: 22px;
+
+        }
+
+        .mobile-number-two {
+            margin-left: 33%;
+            font-size: 22px;
+        }
+
+        .cs-address {
+            width: 25vw;
+            height: 40vh;
+            background-color: white;
+        }
+
+        .address {
+            margin-left: 38%;
+            font-size: 22px;
+        }
+
+        .saoner {
+            margin-left: 40%;
+            font-size: 22px;
+        }
+
+        .contact-map {
+            width: 1700px;
+            height: 50vh;
+            background-color: white;
+        }
+
+        a {
+            text-decoration: none;
+            color: rgb(255, 255, 255);
+        }
+
+        .last-footer {
+            height: 15%;
+            width: 100%;
+            background-color: yellow;
+
+            display: flex;
+            flex-direction: column;
+        }
+
+        .footer-last-header {
+            height: 40%;
+            width: 100%;
+            background-color: #000000;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 5%;
+            color: rgb(255, 255, 255);
+            font-size: 25px;
+        }
+
+        .footer-last-main {
+            height: 60%;
+            width: 100%;
+            color: rgb(0, 0, 0);
+            background-color: #d1d1d1;
+            display: flex;
+            font-size: 25px;
+            align-items: center;
+            justify-content: center;
+
+        }
+
+        .arsalan-khan {
+            color: rgb(21, 0, 255);
+        }
+
+        @media (min-width:300px) and (max-width:430px) {
+            body {
+                margin: 0%;
+                padding: 0%;
+            }
+
+            .main-container {
+                height: 100vh;
+                width: 100vw;
+            }
+
+            /* pages */
+            a {
+                text-decoration: none;
+                color: rgb(0, 0, 0);
+            }
+
+            /* page-one */
+            .pageone {
+                background-color: aqua;
+                display: flex;
+                flex-direction: row;
+                height: 80%;
+                width: 100%;
+            }
+
+
+
+            /* main-center */
+            .center {
+                height: 100%;
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+            }
+
+            /* centerk child */
+            /*first header */
+            .header {
+                height: 10%;
+                width: 100%;
+                background-color: rgb(95, 68, 146);
+                display: flex;
+                flex-direction: row;
+                display: none;
+            }
+
+            .shop-name {
+                height: 100%;
+                width: 100%;
+                background-color: rgb(2, 2, 113);
+                display: flex;
+                font-size: 30px;
+                align-items: center;
+
+
+
+            }
+
+            .s-name {
+                margin-left: 10%;
+            }
+
+            .name-bar {
+                height: 100%;
+                width: 20%;
+
+                display: flex;
+                flex-direction: row;
+                gap: 10px;
+                align-items: center;
+                justify-content: center;
+                display: none;
+            }
+
+
+
+            /*first main */
+            .main {
+                height: 70%;
+                width: 100%;
+                background-color: wheat;
+                background-image: url(https://pandansocial.com/wp-content/uploads/2021/09/Is-The-Grocery-Store-Industry-Ripe-for-Digital-Innovation_.jpg);
+                background-position: center;
+                background-size: cover;
+            }
+
+            .main-name-bar {
+
+                height: 6%;
+                width: 100%;
+                background-color: rgb(255, 255, 255);
+                display: flex;
+                flex-direction: row;
+                gap: 45px;
+                margin-left: 0%;
+                align-items: center;
+                justify-content: center;
+            }
+
+            /* main-small box */
+            .shop-black-opacity {
+                height: 100%;
+                width: 100%;
+                background-color: rgba(0, 0, 0, 0.356);
+                text-align: center;
+                font-size: 30px;
+            }
+
+            /*  */
+
+            .sd {
+                height: 20%;
+                width: 25%;
+                background-color: rgb(223, 223, 6);
+                font-size: 25px;
+                color: rgb(0, 0, 0);
+                border: 1px solid white;
+
+            }
+
+            .sds {
+                height: 20%;
+                width: 25%;
+                background-color: rgb(0, 184, 0);
+                font-size: 25px;
+                color: white;
+                border: 1px solid white;
+
+            }
+
+            .sdsd {
+                height: 20%;
+                width: 25%;
+                background-color: darkblue;
+                font-size: 25px;
+                color: white;
+                border: 1px solid white;
+
+            }
+
+            .shop-text {
+                height: 40%;
+                width: 90%;
+                background-color: rgba(0, 0, 0, 0.483);
+                margin-left: 5%;
+                color: white;
+
+
+
+            }
+
+            /* header-button */
+            .header-buttonn {
+
+                height: 80%;
+                width: 15%;
+                text-align: center;
+                font-size: 20px;
+                background-color: rgb(255, 204, 0);
+
+            }
+
+            .header-button {
+
+                height: 80%;
+                width: 15%;
+                text-align: center;
+                font-size: 20px;
+                opacity: 100%;
+
+            }
+
+            .header-button:hover {
+                opacity: 100%;
+                background-color: rgb(255, 196, 0);
+            }
+
+            /* first-footer */
+            .footer {
+                height: 30%;
+                width: 100%;
+                background-color: cadetblue;
+                display: flex;
+                flex-direction: column;
+            }
+
+            /* footer-child */
+            /* footer text */
+            .footer-text {
+                height: 30%;
+                width: 100%;
+                background-color: blue;
+            }
+
+            /* footer img */
+            .footer-img {
+                height: 70%;
+                width: 100%;
+                background-color: rgb(241, 235, 235);
+                display: flex;
+                flex-direction: row;
+                gap: 2%;
+
+
+
+
+            }
+
+            .first-footer-img {
+                height: 100%;
+                width: 100%;
+                border-radius: 100%;
+
+            }
+
+            /* footer img child */
+            .img {
+                height: 60%;
+                width: 20%;
+                margin-top: 5%;
+                border-radius: 100%;
+
+            }
+
+            .boxone {
+                background-color: aqua;
+            }
+
+            .boxtwo {
+                background-color: rgb(0, 255, 21);
+            }
+
+            .boxthree {
+                background-color: rgb(7, 92, 14);
+
+            }
+
+            .boxfour {
+                background-color: rgb(255, 0, 72);
+            }
+
+            .boxfive {
+                background-color: rgb(38, 0, 255);
+            }
+
+            .boxsix {
+                background-color: rgb(255, 0, 119);
+                display: none;
+            }
+
+            .gap-right-pageone {
+                height: 100%;
+                width: 5%;
+                background-color: rgb(255, 255, 255);
+                display: none;
+            }
+
+
+
+
+            /* page-one finish */
+            /* page-one-finish */
+
+            /* page-two */
+            .pagetwo {
+                background-color: rgb(255, 255, 255);
+                display: flex;
+                flex-direction: row;
+                height: 70%;
+                width: 100%;
+            }
+
+            .second-center {
+                height: 100%;
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+            }
+
+            /* second-child */
+            .second-header {
+                height: 25%;
+                width: 100%;
+                background-color: rebeccapurple;
+            }
+
+            /* second-header img child */
+            .longimg {
+                width: 100%;
+                height: 100%;
+
+            }
+
+            /* text */
+            .second-text {
+                height: 10%;
+                width: 100%;
+                background-color: rgb(255, 255, 255);
+
+            }
+
+            .category-text {
+                text-align: center;
+                font-family: cursive;
+                font-size: 29px;
+                color: rgb(255, 255, 255);
+
+            }
+
+            /* card page two */
+            .second-main {
+                height: 60%;
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+            }
+
+            /* child */
+            .second-main-rowone {
+                height: 48%;
+                width: 100%;
+                display: flex;
+                background-color: rgb(234, 241, 241);
+                flex-direction: row;
+                justify-content: space-evenly;
+                align-items: center;
+            }
+
+            /* second-main-rowone-child */
+            .product-cards {
+                height: 70%;
+                width: 30%;
+                display: flex;
+                flex-direction: column;
+
+
+
+            }
+
+            .cardone {
+                background-color: rgb(167, 167, 215);
+                border-radius: 15px;
+
+
+            }
+
+            .cardtwo {
+                background-color: rgb(255, 0, 0);
+                border-radius: 15px;
+                display: flex;
+                flex-direction: column;
+
+            }
+
+            .cardthree {
+                border-radius: 15px;
+                background-color: rgb(255, 247, 0);
+                display: none;
+
+            }
+
+            .cardfour {
+                background-color: rgb(255, 255, 255);
+                border-radius: 15px;
+
+            }
+
+            /* second-page card-image */
+            .card-img {
+                height: 100%;
+                width: 100%;
+                background-color: rgb(142, 169, 86);
+                border-radius: 15px;
+            }
+
+            /*second-page card-text */
+
+            /* second-page-card-image */
+            .card-img-hw {
+                height: 100%;
+                width: 100%;
+                border-radius: 15px;
+            }
+
+            .second-main-rowtwo {
+                height: 48%;
+                width: 100%;
+                background-color: rgb(196, 164, 164);
+                display: flex;
+                flex-direction: row;
+                justify-content: space-evenly;
+                align-items: center;
+            }
+
+            /* page-two-finisg */
+            /* page-two-finish */
+            /* page-three */
+            .pagethree {
+                background-color: rgb(255, 255, 255);
+                display: flex;
+                flex-direction: row;
+                height: 70%;
+                width: 100%;
+            }
+
+            .gap-left-pagethree {
+                height: 100%;
+                width: 10%;
+                background-color: rgb(255, 255, 255);
+                display: none;
+
+            }
+
+            .three-center {
+                height: 100%;
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+            }
+
+            /* third center child */
+            .third-text {
+                height: 8%;
+                width: 100%;
+                color: rgb(44, 44, 123);
+                text-align: center;
+                font-size: 25px;
+                background-color: rgb(255, 255, 255);
+                font-family: cursive;
+            }
+
+            .third-card-row-two {
+                height: 15%;
+                width: 100%;
+                ;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-evenly;
+                align-items: center;
+                font-family: cursive;
+
+            }
+
+            .third-secondtext {
+                height: 10%;
+                width: 100%;
+                text-align: center;
+                font-size: 25px;
+                font-family: cursive;
+                color: rgb(15, 15, 142);
+                background-color: rgb(255, 255, 255);
+
+
+            }
+
+            /* child */
+            /* third product card row one */
+            .pagethird {
+                height: 70%;
+                width: 15%;
+
+            }
+
+            /* third card child */
+            .productone {
+                background-color: bisque;
+            }
+
+            .producttwo {
+                background-color: rgb(0, 200, 23);
+
+            }
+
+            .productthree {
+                background-color: blue;
+
+            }
+
+            .productfour {
+                background-color: tomato;
+                display: none;
+
+            }
+
+            .productfive {
+                background-color: slategray;
+                display: none;
+            }
+
+            .productsix {
+                background-color: springgreen;
+                display: none;
+            }
+
+            /* third card row tow finish */
+            .third-card-row-three {
+                height: 30%;
+                width: 100%;
+                background-color: rgb(219, 230, 240);
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+                align-items: center;
+
+            }
+
+            .thirdcard {
+                height: 80%;
+                width: 30%;
+
+            }
+
+            /* child */
+            .barone {
+                background-color: rgb(255, 255, 255);
+            }
+
+            .bartwo {
+                background-color: rgb(255, 255, 255);
+            }
+
+            .barthree {
+                background-color: rgb(255, 255, 255);
+            }
+
+            .barfour {
+                background-color: rgb(255, 255, 255);
+                display: none;
+            }
+
+            .barfive {
+                background-color: rgb(255, 255, 255);
+                display: none;
+
+            }
+
+            /* child */
+            .thirdcard-img {
+                height: 80%;
+                width: 100%;
+
+            }
+
+            .thirdcard-text {
+                height: 20%;
+                width: 100%;
+
+            }
+
+            /* third card row four finish */
+            .third-card-row-four {
+                height: 35%;
+                width: 100%;
+                background-color: rgb(219, 230, 240);
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+                align-items: center;
+
+            }
+
+            .gap-right-pagethree {
+                height: 100%;
+                width: 10%;
+                background-color: rgb(255, 255, 255);
+                display: none;
+
+            }
+
+
+            /* third small box img */
+            .third img {
+                height: 100%;
+                width: 100%;
+            }
+
+            .third-imgg {
+                height: 100%;
+                width: 100%;
+            }
+
+            .span-text {
+                margin-left: 9%;
+                font-size: 17px;
+                font-family: cursive;
+            }
+
+            /* page three finish */
+            /* page three finish */
+            /* page-four */
+            .pagefour {
+                background-color: rgb(255, 255, 255);
+                height: 70%;
+                width: 100%;
+                display: flex;
+                flex-direction: row;
+            }
+
+            /* gap left pagefour */
+            .gap-left-pagefour {
+                height: 100%;
+                width: 5%;
+                background-color: rgb(255, 255, 255);
+                display: none;
+            }
+
+            .center-four {
+                height: 100%;
+                width: 100%;
+                background-color: rgb(123, 31, 112);
+            }
+
+            .header {
+                height: 7%;
+                width: 100%;
+                background-color: rgb(255, 255, 255);
+                display: flex;
+                align-items: center;
+
+            }
+
+            .header-one {
+                height: 50%;
+                width: 70%;
+                ;
+
+            }
+
+            i {
+                font-size: 20px;
+                margin-left: 40%;
+                color: rgb(3, 3, 113);
+            }
+
+
+
+
+
+            /* header finish */
+
+
+            /* first row */
+            .row-one {
+                height: 100%;
+                width: 100;
+                background-color: tomato;
+                display: flex;
+                flex-direction: row;
+            }
+
+
+
+            /* navigation bar finish */
+            .right-box {
+                height: 100%;
+                width: 100%;
+                background-color: #ffffff;
+                display: flex;
+                flex-direction: column;
+            }
+
+            .card-row-one {
+                height: 100%;
+                width: 100%;
+                background-color: #dac5c5;
+                display: flex;
+                flex-direction: row;
+
+
+
+            }
+
+            /* product card */
+            .card {
+                height: 80%;
+                width: 28%;
+                margin-top: 1%;
+                display: flex;
+                flex-direction: column;
+
+            }
+
+
+            .box {
+                background: linear-gradient(rgb(255, 255, 255), rgb(255, 255, 255));
+            }
+
+            .boxx {
+                background: linear-gradient(rgb(255, 255, 255), rgb(255, 255, 255));
+            }
+
+            .boxxx {
+                background: linear-gradient(rgb(255, 255, 255), rgb(196, 196, 196));
+            }
+
+            .boxxxx {
+                background: linear-gradient(rgb(255, 255, 255), rgb(207, 207, 207));
+            }
+
+            .image {
+                height: 80%;
+                width: 100%;
+                background-color: rgb(255, 255, 255);
+
+            }
+
+            .image-text {
+                height: 20%;
+                width: 100%;
+                background-color: #ffffff;
+
+            }
+
+            /* row two */
+            .card-row-two {
+                height: 100%;
+                width: 100%;
+                background-color: #dac5c5;
+                display: flex;
+                flex-direction: row;
+
+            }
+
+            .card-row-three {
+                height: 100%;
+                width: 100%;
+                background-color: #dac5c5;
+                display: flex;
+                flex-direction: row;
+
+            }
+
+
+            .cards {
+                height: 60%;
+                width: 15%;
+
+                margin-top: 1%;
+
+
+            }
+
+            .first {
+                background: linear-gradient(rgb(255, 255, 255), rgb(255, 255, 255));
+            }
+
+            .dsp {
+                background-color: yellow;
+                display: none;
+            }
+
+            /* card-img */
+            .card-img {
+                height: 100%;
+                width: 100%;
+                border-radius: 0px;
+
+
+
+            }
+
+            .text {
+                font-size: 15px;
+                margin-left: 25%;
+                font-family: Georgia, 'Times New Roman', Times, serif;
+            }
+
+            .gap-right-pagefour {
+                height: 100%;
+                width: 5%;
+                background-color: rgb(156, 131, 131);
+                display: none;
+            }
+
+            /* page four finish */
+            /* page four finish */
+            /* page five */
+
+            .page-five {
+                height: 40%;
+                width: 100%;
+                background-color: yellow;
+                display: flex;
+                flex-direction: row;
+            }
+
+            .gap-left-pagefive {
+                height: 100%;
+                width: 5%;
+                background-color: violet;
+                display: none;
+            }
+
+            .center-five {
+                height: 100%;
+                width: 100%;
+                background-color: tomato;
+            }
+
+            /* long img */
+            .five-header {
+                height: 40%;
+                width: 100%;
+                background-color: rgb(181, 123, 16);
+            }
+
+            /* five main card */
+            .five-main-card {
+                height: 70%;
+                width: 100%;
+                background-color: rgb(186, 220, 220);
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: center;
+                justify-content: space-around;
+
+            }
+
+            /* card-one */
+            .five-card-one {
+                height: 60%;
+                width: 30%;
+                background-color: rgb(130, 238, 134);
+            }
+
+            .five-card-two {
+                height: 60%;
+                width: 30%;
+                background-color: rgb(173, 130, 238);
+            }
+
+            .five-card-three {
+                height: 60%;
+                width: 30%;
+                background-color: rgb(238, 130, 130);
+            }
+
+            .five-card-four {
+                height: 80%;
+                width: 18%;
+                background-color: rgb(238, 218, 130);
+                display: none;
+            }
+
+            .five-card-five {
+                height: 0%;
+                width: 18%;
+                background-color: rgb(238, 130, 148);
+                display: none;
+            }
+
+            /* gar right five */
+            .gap-right-pagefive {
+                height: 100%;
+                width: 5%;
+                background-color: rgb(255, 255, 255);
+                display: none;
+            }
+
+            /* five img */
+            .five-img {
+                height: 100%;
+                width: 100%;
+                margin: 0%;
+
+
+            }
+
+            /* page five finish */
+            /* page five finish */
+            /* page  six */
+            .page-six {
+                height: 40%;
+                width: 100%;
+                background-color: #d32d2d;
+                display: flex;
+                flex-direction: row;
+            }
+
+            .gap-left-pagesix {
+                height: 100%;
+                width: 5%;
+                background-color: rgb(255, 255, 255);
+                display: none;
+            }
+
+            .six-center {
+                height: 100%;
+                width: 100%;
+                background-color: #d32d2d;
+            }
+
+            /* six header */
+            .six-header {
+                height: 20%;
+                width: 100%;
+                background-color: rgb(188, 188, 188);
+            }
+
+            /* visit page-information */
+            .visit {
+                height: 80%;
+                width: 100%;
+                background-color: slateblue;
+                display: flex;
+                flex-direction: row;
+            }
+
+            /* child */
+            .visit-one {
+                height: 100%;
+                width: 100%;
+                background-color: rgb(231, 231, 231);
+            }
+
+            .visit-two {
+                height: 100%;
+                width: 20%;
+                background-color: rgb(207, 207, 207);
+                display: none;
+            }
+
+            /* information-text */
+            .information-text {
+                text-align: center;
+                font-size: 30px;
+                color: #010756;
+            }
+
+            /* visit-text */
+            .visit-textt {
+                text-align: center;
+                margin-top: 10%;
+                font-size: 20px;
+            }
+
+            /* visit button */
+            .visit-button {
+                margin-top: 50%;
+                text-align: center;
+                margin-left: 20%;
+                height: 15%;
+                width: 60%;
+                font-size: 20px;
+                border-radius: 20px;
+                background-color: red;
+                color: white;
+
+            }
+
+
+
+
+            .gap-right-pagesix {
+                height: 100%;
+                width: 5%;
+                background-color: rgb(255, 255, 255);
+                display: none;
+            }
+
+            /* six page finish */
+            /* six page finish */
+            /* page seven finish */
+
+            /* .contact-page */
+
+            .contact-page {
+                width: 100%;
+                height: 100%;
+                background-color: white;
+                display: flex;
+                flex-direction: column;
+
+            }
+
+            .contact-section {
+                width: 100vw;
+                height: 160vh;
+                background-color: white;
+                display: flex;
+                flex-direction: column;
+
+            }
+
+            .cs-heading {
+                width: 100vw;
+                height: 10vh;
+                text-align: center;
+                font-size: 35px;
+            }
+
+            .cs-name {
+                width: 100vw;
+                height: 30vh;
+                background-color: white;
+                display: flex;
+                flex-direction: column;
+            }
+
+            .cs-gmail {
+                width: 100vw;
+                height: 30vh;
+                background-color: white;
+
+            }
+
+            .image-one {
+                margin-left: 38%;
+            }
+
+            .Email {
+                margin-left: 42%;
+                font-size: 24px;
+            }
+
+            .gmail {
+                margin-left: 20%;
+                font-size: 22px;
+            }
+
+            .cs-whats-app {
+                width: 100vw;
+                height: 30vh;
+                background-color: white;
+            }
+
+            .whats-app {
+                margin-left: 38%;
+                font-size: 22px;
+            }
+
+            .mobile-number-one {
+                margin-left: 36%;
+                font-size: 22px;
+            }
+
+            .cs-contact {
+                width: 100vw;
+                height: 30vh;
+                background-color: white;
+            }
+
+            .contact {
+                margin-left: 40%;
+                font-size: 22px;
+
+            }
+
+            .mobile-number-two {
+                margin-left: 36%;
+                font-size: 22px;
+            }
+
+            .cs-address {
+                width: 100vw;
+                height: 30vh;
+                background-color: white;
+            }
+
+            .address {
+                margin-left: 41%;
+                font-size: 22px;
+            }
+
+            .saoner {
+                margin-left: 42%;
+                font-size: 22px;
+            }
+
+            .contact-map {
+                width: 1700px;
+                height: 40vh;
+                background-color: white;
+            }
+
+            /* last footer */
+            /* last footer */
+            .last-footer {
+                height: 15%;
+                width: 100%;
+                background-color: yellow;
+
+                display: flex;
+                flex-direction: column;
+            }
+
+            .footer-last-header {
+                height: 40%;
+                width: 100%;
+                background-color: #000000;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                gap: 5%;
+                color: rgb(255, 255, 255);
+                font-size: 25px;
+            }
+
+            .footer-last-main {
+                height: 60%;
+                width: 100%;
+                color: rgb(0, 0, 0);
+                background-color: #d1d1d1;
+                display: flex;
+                font-size: 25px;
+                align-items: center;
+                justify-content: center;
+
+            }
+
+            .arsalan-khan {
+                color: rgb(21, 0, 255);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- main-container -->
+    <div class="main-container">
+        <!-- page-one -->
+        <div class="pageone">
+            <!-- left-gap -->
+            <div class="gap-left-pageone"></div>
+            <!-- main-center -->
+            <div class="center">
+                <!-- header -->
+                <div class="header">
+                    <div class="shop-name">
+                        <div class="s-name">Pathan Kirana Store</div>
+                    </div>
+                    <div class="name-bar">
+                        <div class="header-buttonn">Home</div>
+                        <div class="header-button">About</div>
+                        <div class="header-button"><a href="#product-cards">Product</div></a>
+                        <div class="header-button">Contact</div>
+                    </div>
+                </div>
+                <!-- main -->
+                <div class="main">
+                    <div class="main-name-bar">
+                        <div class="header-buttonn">Home</div>
+                        <div class="header-button">About</div>
+                        <div class="header-button"><a href="#product-cards">Product</div></a>
+                        <div class="header-button">Contact</div>
+                    </div>
+                    <div class="shop-black-opacity"><br><br><br><br><br><br><br>
+                        <div class="shop-text"><br>Pathan Kirana Store <br>fgdfhgfhfghgjghjhkghjkjhkh <br><br><button
+                                class="sd">Product</button>-<button class="sds">Call</button>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- footer -->
+                <div class="footer">
+                    <!-- first-footer-text -->
+
+                    <!-- first-footer-img -->
+                    <div class="footer-img">
+                        <div class="img boxone"><a href="./new-multipal page/colgate-12.html"><img class="first-footer-img"
+                            src="https://d1sl07a7h3d3fr.cloudfront.net/admin/store/f52e9dee-0865-4847-8beb-853d7b6f8aac-Colgate.jpg"
+                            alt=""></a></div>
+                        <div class="img boxtwo"><a href="./new-multipal page/ditergent-4.html"><img class="first-footer-img"
+                            src="https://d1sl07a7h3d3fr.cloudfront.net/admin/store/5b6fb9e9-f62f-4909-a58f-567d9fe586f5-Surfexcel.jpg"
+                            alt=""></a></div>
+                        <div class="img boxthree"><a href="./new-multipal page/perfum-9.html"><img class="first-footer-img"
+                            src="https://d1sl07a7h3d3fr.cloudfront.net/admin/store/f8c7d8ab-df5f-4bbf-8466-9c313255ba2b-Fogg.jpg"
+                            alt=""></a></div>
+                        <div class="img boxfour"><a href="./new-multipal page/snack-store-6.html"><img class="first-footer-img"
+                            src="https://d1sl07a7h3d3fr.cloudfront.net/admin/store/a3669a82-f868-44bb-b7d2-19c6dc6a4cf0-Haldirams.jpg"
+                            alt=""></a></div>
+                        <div class="img boxfive"><a href="./new-multipal page/oil-product-1.html"><img class="first-footer-img"
+                            src="https://d1sl07a7h3d3fr.cloudfront.net/admin/store/37cb9c9b-7724-4cbc-adbc-51ee91ba017e-blob"
+                            alt=""></a></div>
+                        <div class="img boxsix"><a href="./new-multipal page/amul-product-11.html"><img class="first-footer-img"
+                            src="https://d1sl07a7h3d3fr.cloudfront.net/admin/store/6bcfd86b-3830-4bfc-8619-986ee84581fc-blob"
+                            alt=""></a></div>
+                        <div class="img boxsix"><a href="./new-multipal page/parle-13.html"><img class="first-footer-img"
+                            src="https://d1sl07a7h3d3fr.cloudfront.net/admin/store/2286f3cb-335a-4fed-81d8-cf5d946f637b-blob"
+                            alt=""></a></div>
+                        <div class="img boxsix"><a href="./new-multipal page/red-label-14.html"><img class="first-footer-img"
+                            src="https://d1sl07a7h3d3fr.cloudfront.net/admin/store/ff6a598d-abe6-43a8-84ac-8b486833046c-brookbond.jpg"
+                            alt=""></a></div>
+
+                    </div>
+
+                    <div class="footer-text"><img class="longimg"
+                            src="https://d1sl07a7h3d3fr.cloudfront.net/admin/store/pothys/banner/pothys_strip_banner.jpeg"
+                            alt=""></div>
+
+                </div>
+
+
+            </div>
+            <!-- right-gap -->
+            <div class=" gap-right-pageone"></div>
+        </div>
+        <!-- first-page-finish -->
+        <!-- page-two -->
+        <div class="pagetwo">
+            <!-- gap -->
+            <div class="gap-left-pageone"></div>
+            <!--  second  main -->
+            <div class="second-center">
+                <!-- long img -->
+                <div class="second-header"><img class="longimg"
+                        src="https://d1sl07a7h3d3fr.cloudfront.net/admin/store/7d26cbfb-6d99-46d8-9406-a5a0c43c5854-pothysnatchiyar.jpeg"
+                        alt=""></div>
+                <!-- text -->
+                <div class="second-text">
+                    <div class="category-text" id="product-cards"> Browse all category</div>
+                </div>
+                <!-- product card page -->
+                <div class="second-main">
+                    <!-- second-main child -->
+                    <div class="second-main-rowone">
+                        <!-- product cards box -->
+                        <div class="product-cards cardone">
+                            <div class="card-img"><a href="./new-multipal page/snack-store-6.html"><img class="card-img-hw"
+                                src="https://www.bigbasket.com/media/customPage/b01eee88-e6bc-410e-993c-dedd012cf04b/91e53046-98e0-4c5b-ae53-7d073e5210e1/09ece9f7-7ac9-4d1e-afbb-f8ac572add38/hp_sbf_m_biscuits-&-namkeens_480_250923.jpg?tr=w-480,q-80"
+                                alt=""></a></div>
+
+                        </div>
+                        <div class="product-cards cardtwo">
+                            <div class="card-img"><img class="card-img-hw"
+                                    src="https://www.bigbasket.com/media/customPage/b01eee88-e6bc-410e-993c-dedd012cf04b/91e53046-98e0-4c5b-ae53-7d073e5210e1/09ece9f7-7ac9-4d1e-afbb-f8ac572add38/hp_sbf_m_breakfast-cereals_480_250923.jpg?tr=w-480,q-80"
+                                    alt=""></div>
+
+                        </div>
+                        <div class="product-cards cardthree">
+                            <div class="card-img"><img class="card-img-hw"
+                                    src="https://www.bigbasket.com/media/customPage/b01eee88-e6bc-410e-993c-dedd012cf04b/91e53046-98e0-4c5b-ae53-7d073e5210e1/09ece9f7-7ac9-4d1e-afbb-f8ac572add38/hp_sbf_m_pasta-sauces-&-more_480_270723.jpg?tr=w-480,q-80"
+                                    alt=""></div>
+
+                        </div>
+                        <div class="product-cards cardfour">
+                            <div class="card-img"><img class="card-img-hw"
+                                    src="https://www.bigbasket.com/media/customPage/b01eee88-e6bc-410e-993c-dedd012cf04b/91e53046-98e0-4c5b-ae53-7d073e5210e1/09ece9f7-7ac9-4d1e-afbb-f8ac572add38/hp_sbf_m_sweet-cravings_480_250923.jpg?tr=w-480,q-80"
+                                    alt=""></div>
+
+                        </div>
+
+                    </div>
+                    <br>
+                    <div class="second-main-rowtwo">
+                        <div class="product-cards cardone">
+                            <div class="card-img"><a href="./new-multipal page/snack-store-6.html"><img
+                                class="card-img-hw"
+                                src="https://www.bigbasket.com/media/customPage/b01eee88-e6bc-410e-993c-dedd012cf04b/91e53046-98e0-4c5b-ae53-7d073e5210e1/fefafda6-5ef7-4ed2-8fee-2574720666d7/hp_c&h_m_cleaners_480_250723.jpg?tr=w-480,q-80"
+                                alt=""></a></div>
+
+                        </div>
+                        <div class="product-cards cardtwo">
+                            <div class="card-img"><a href="./new-multipal page/snack-store-6.html"></a><img
+                                        class="card-img-hw"
+                                        src="https://www.bigbasket.com/media/customPage/b01eee88-e6bc-410e-993c-dedd012cf04b/91e53046-98e0-4c5b-ae53-7d073e5210e1/fefafda6-5ef7-4ed2-8fee-2574720666d7/hp_c&h_m_detergents-&-fabric-care_480_250723.jpg?tr=w-480,q-80"
+                                        alt=""></div>
+
+                        </div>
+                        <div class="product-cards cardthree">
+                            <div class="card-img"><img class="card-img-hw"
+                                    src="https://www.bigbasket.com/media/customPage/b01eee88-e6bc-410e-993c-dedd012cf04b/91e53046-98e0-4c5b-ae53-7d073e5210e1/fefafda6-5ef7-4ed2-8fee-2574720666d7/hp_c&h_m_paper-disposables-&-garbage-bags_480_250723.jpg?tr=w-480,q-80"
+                                    alt=""></div>
+
+                        </div>
+                        <div class="product-cards cardfour">
+                            <div class="card-img"><img class="card-img-hw"
+                                    src="https://www.bigbasket.com/media/customPage/b01eee88-e6bc-410e-993c-dedd012cf04b/91e53046-98e0-4c5b-ae53-7d073e5210e1/fefafda6-5ef7-4ed2-8fee-2574720666d7/hp_c&h_m_freshner_480_250723.jpg?tr=w-480,q-80"
+                                    alt=""></div>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <!-- gap -->
+            <div class="gap-right-pageone"></div>
+        </div>
+        <!-- page three -->
+        <div class="pagethree">
+            <!-- pagethree  -->
+            <div class="gap-left-pagethree"></div>
+            <!-- third main -->
+            <div class="three-center">
+                <!-- third text -->
+                <div class="third-text">
+                    Your Daily Needs
+                </div>
+                <!-- third product card two -->
+                <div class="third-card-row-two">
+                    <div class="third productone"><img class="third-img"
+                            src="https://www.bigbasket.com/media/customPage/b01eee88-e6bc-410e-993c-dedd012cf04b/91e53046-98e0-4c5b-ae53-7d073e5210e1/0bb0a6da-8713-48fc-a40d-93cd63ca2025/hp_atta-flour-staplesStorefront_m_480_250323_01.jpg?tr=w-480,q-80"
+                            alt=""></div>
+                    <div class="third producttwo"><a href="./new-multipal page/rice-product-3.html"><img class="third-img"
+                        src="https://www.bigbasket.com/media/customPage/b01eee88-e6bc-410e-993c-dedd012cf04b/91e53046-98e0-4c5b-ae53-7d073e5210e1/0bb0a6da-8713-48fc-a40d-93cd63ca2025/hp_rice-staplesStorefront_m_480_250323_02.jpg?tr=w-480,q-80"
+                        alt=""></a></div>
+                    <div class="third productthree"><a href="./new-multipal page/lentil-5.html"><img class="third-img"
+                        src="https://www.bigbasket.com/media/customPage/b01eee88-e6bc-410e-993c-dedd012cf04b/91e53046-98e0-4c5b-ae53-7d073e5210e1/0bb0a6da-8713-48fc-a40d-93cd63ca2025/hp_dals-pulses-staplesStorefront_m_480_250323_03.jpg?tr=w-480,q-80"
+                        alt=""></a></div>
+                    <div class="third productfour"><a href="./new-multipal page/oil-product-1.html"><img class="third-img"
+                        src="https://www.bigbasket.com/media/customPage/b01eee88-e6bc-410e-993c-dedd012cf04b/91e53046-98e0-4c5b-ae53-7d073e5210e1/0bb0a6da-8713-48fc-a40d-93cd63ca2025/hp_cooking-oils-staplesStorefront_m_480_250323_04.jpg?tr=w-480,q-80"
+                        alt=""></a></div>
+                    <div class="third productfive"><a href="./new-multipal page/dry-fruit.html"><img class="third-img"
+                        src="https://www.bigbasket.com/media/customPage/b01eee88-e6bc-410e-993c-dedd012cf04b/91e53046-98e0-4c5b-ae53-7d073e5210e1/0bb0a6da-8713-48fc-a40d-93cd63ca2025/hp_dry-fruits-staplesStorefront_m_480_250323_05.jpg?tr=w-480,q-80"
+                        alt=""></a></div>
+                    <div class="third productsix"><a href="./new-multipal page/sugar-16.html"><img class="third-img"
+                        src="https://www.bigbasket.com/media/customPage/b01eee88-e6bc-410e-993c-dedd012cf04b/91e53046-98e0-4c5b-ae53-7d073e5210e1/0bb0a6da-8713-48fc-a40d-93cd63ca2025/hp_salt-staplesStorefront_m_480_250323_06.jpg?tr=w-480,q-80"
+                        alt=""></a></div>
+
+                </div>
+
+                <div class="third-secondtext">
+                    Snack & Chocolates Store
+                </div>
+                <!-- product card row three -->
+
+                <div class="third-card-row-three">
+                    <div class="thirdcard barone">
+                        <div class="thirdcard-img"> <a href="./new-multipal page/coldrink-7.html"><img class="third-imgg"
+                            src="https://www.bbassets.com/media/uploads/p/l/1223983_1-sprite-soft-drink.jpg" alt="">
+                    </div></a>
+                        <div class="thirdcard-text"><span class="span-text">Cold Drink</span></div>
+                    </div>
+                    <div class="thirdcard bartwo">
+                        <div class="thirdcard-img"> <a href="./new-multipal page/snack-store-6.html"><img class="third-imgg"
+                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSh0xTi7pUjxGESrNEyjCs5Ov1U-jxmunc9Dw&s"
+                            alt=""></a>
+                        </div>
+                        <div class="thirdcard-text"><span class="span-text">Vapers</span></div>
+                    </div>
+                    <div class="thirdcard barthree">
+                        <div class="thirdcard-img"> <a href="./new-multipal page/snack-store-6.html"><img class="third-imgg"
+                            src="https://homeshopgrocery.com/img/Snacks%20Store/Mixture.jpg" alt=""></a></div>
+                        <div class="thirdcard-text"><span class="span-text">Uphas chivda</span></div>
+                    </div>
+                    <div class="thirdcard  barfour">
+                        <div class="thirdcard-img"><a href="./new-multipal page/dry-fruit.html"> <img class="third-imgg"
+                            src="https://homeshopgrocery.com/img/Snacks%20Store/Dry%20Fruits.jpg" alt=""></a></div>
+                        <div class="thirdcard-text"><span class="span-text">Dry Fruits</span></div>
+                    </div>
+                    <div class="thirdcard barfive">
+                        <div class="thirdcard-img"> <img class="third-imgg"
+                                src="https://m.media-amazon.com/images/I/81LAefUrb9L._UF1000,1000_QL80_.jpg" alt="">
+                        </div>
+                        <div class="thirdcard-text"> <span class="span-text">Chocos</span></div>
+                    </div>
+                </div>
+                <!-- product card row four-->
+                <div class="third-card-row-four">
+                    <div class="thirdcard barone">
+                        <div class="thirdcard-img"> <a href="./new-multipal page/icecream-8.html"><img class="third-imgg"
+                            src="https://homeshopgrocery.com/img/Snacks%20Store/Chocolate.jpg" alt=""></a></div>
+                        <div class="thirdcard-text"><span class="span-text">Dairy Milk</span></div>
+                    </div>
+                    <div class="thirdcard bartwo">
+                        <div class="thirdcard-img"><a href="./new-multipal page/red-label-14.html"> <img class="third-imgg"
+                            src="https://d1sl07a7h3d3fr.cloudfront.net/common/master/bru_gold_coffee_25gm_1233.jpg"
+                            alt=""></a></div>
+                        <div class="thirdcard-text"><span class="span-text">Bru Cofy</span></div>
+                    </div>
+                    <div class="thirdcard barthree">
+                        <div class="thirdcard-img"> <a href="./new-multipal page/icecream-8.html"><img   class="third-imgg" src="https://www.bbassets.com/media/uploads/p/l/40120606_19-cadbury-dairy-milk-silk-valentine-special-gift-pack-heart-pop.jpg" alt=""></a></div>
+                        <div class="thirdcard-text"><span class="span-text">Love Chocolates</span></div>
+                    </div>
+                    <div class="thirdcard  barfour">
+                        <div class="thirdcard-img"><a href="./new-multipal page/amul-product-11.html"> <img class="third-imgg"
+                            src="https://www.bbassets.com/media/uploads/p/l/40090893_8-amul-amul-gold.jpg" alt=""></a>
+                        </div>
+                        <div class="thirdcard-text"><span class="span-text">Amul Milk</span></div>
+                    </div>
+                    <div class="thirdcard barfive">
+                        <div class="thirdcard-img"><a href="./new-multipal page/horlex-chocos-17.html"> <img class="third-imgg"
+                            src="https://d1sl07a7h3d3fr.cloudfront.net/common/master/pt9153089.jpg" alt=""></a></div>
+                        <div class="thirdcard-text"><span class="span-text">Horlics</span></div>
+                    </div>
+                </div>
+            </div>
+            <div class="gap-right-pagethree"></div>
+        </div>
+        <!-- page four -->
+        <div class="pagefour">
+            <div class="gap-left-pagefour"></div>
+            <div class="center-four">
+                <div class="header-four">
+                    <div class="header-one">
+                        <i> All PRODUCT</i>
+                    </div>
+                </div>
+                <!-- main -->
+                <div class="row-one">
+                    <div class="right-box">
+
+                        <div class="card-row-one">
+                            <div class="card box">
+                                <div class="image"><img class="card-img"
+                                        src="https://www.jiomart.com/images/product/original/590000086/big-coconut-1-pc-approx-350-g-600-g-product-images-o590000086-p590000086-0-202408070949.jpg?im=Resize=(420,420)"
+                                        alt=""></div>
+                                <div class="image-text"><span class="text">Coconut </span></div>
+                            </div>
+                            <div class="card boxx">
+                                <div class="image"><img class="card-img"
+                                        src="https://freshmills.in/cdn/shop/files/golden-champa-agarbatti-913650.png?v=1717361821&width=1214"
+                                        alt=""></div>
+                                <div class="image-text"><span class="text">Agarbatti </span></div>
+                            </div>
+                            <div class="card boxxx">
+                                <div class="image"><img class="card-img"
+                                        src="https://5.imimg.com/data5/SELLER/Default/2023/3/291829697/UT/JE/CF/51126755/britannia-bourbon-biscuit.jpg"
+                                        alt=""></div>
+                                <div class="image-text"><span class="text">Biskat</span></div>
+                            </div>
+                            <div class="card dsp">
+                                <div class="image"><img class="card-img"
+                                        src="https://m.media-amazon.com/images/I/51Pk9xHMgGL._UF1000,1000_QL80_.jpg"
+                                        alt="">
+                                </div>
+                                <div class="image-text"><span class="text">Detol liquid</span></div>
+                            </div>
+
+                            <div class=" cards dsp">
+                                <div class="image"><img class="card-img"
+                                        src="https://cdn.shopaccino.com/edible-smart/products/poha-mota-855693_l.jpg?v=599"
+                                        alt=""></div>
+                                <div class="image-text"><span class="text">Poha</span></div>
+                            </div>
+
+                        </div>
+                        <br>
+                        <div class="right-box">
+
+                            <div class="card-row-two">
+                                <div class="card box">
+                                    <div class="image"><img class="card-img"
+                                            src="   https://thumbs.dreamstime.com/z/back-to-school-concept-books-pencils-18544131.jpg"
+                                            alt=""></div>
+                                    <div class="image-text"><span class="text">Book </span></div>
+                                </div>
+                                <div class="card boxx">
+                                    <div class="image"><img class="card-img"
+                                            src="https://images.ctfassets.net/o7fa4pf94cfp/77hAvyYLZevHNIfB3msNwH/8f8ef7f40c77ed2016f7a77de2d35a95/4902430411776_C1N1.jpeg?w=700&fm=webp"
+                                            alt=""></div>
+                                    <div class="image-text"><span class="text">Shampoo </span></div>
+                                </div>
+                                <div class="card boxxx">
+                                    <div class="image"><img class="card-img"
+                                            src="   https://www.dabur.com/Medical%20Plants/Supari.jpg" alt=""></div>
+                                    <div class="image-text"><span class="text">Supari</span></div>
+                                </div>
+                                <div class="card dsp">
+                                    <div class="image"><img class="card-img"
+                                            src="https://m.media-amazon.com/images/I/61zzyIUgE-L.jpg" alt=""></div>
+                                    <div class="image-text"><span class="text">Dhoop Agarbatti</span></div>
+                                </div>
+
+                                <div class=" cards dsp">
+                                    <div class="image"><img class="card-img"
+                                            src="https://m.media-amazon.com/images/I/51DJqbwK+kL._UF1000,1000_QL80_.jpg"
+                                            alt="">
+                                    </div>
+                                    <div class="image-text"><span class="text">Bourn Vita</span></div>
+                                </div>
+
+                            </div>
+
+                        </div>
+                        <div class="right-box">
+
+                            <div class="card-row-three">
+                                <div class="card box">
+                                    <div class="image"><img class="card-img"
+                                            src="https://m.media-amazon.com/images/I/710r2xXgabL.jpg" alt=""></div>
+                                    <div class="image-text"><span class="text">Gulab Jamun</span></div>
+                                </div>
+                                <div class="card boxx">
+                                    <div class="image"><img class="card-img"
+                                            src="https://m.media-amazon.com/images/I/81Q+4YfT3oL._UF1000,1000_QL80_.jpg"
+                                            alt="">
+                                    </div>
+                                    <div class="image-text"><span class="text">Achar </span></div>
+                                </div>
+                                <div class="card boxxx">
+                                    <div class="image"><img class="card-img"
+                                            src="https://www.jiomart.com/images/product/original/490005239/kissan-pineapple-jam-500-g-product-images-o490005239-p490005239-3-202203151442.jpg?im=Resize=(420,420)"
+                                            alt=""></div>
+                                    <div class="image-text"><span class="text">Kissan Jam </span></div>
+                                </div>
+                                <div class="card dsp">
+                                    <div class="image"><img class="card-img"
+                                            src="https://m.media-amazon.com/images/I/71S0MymbzTL._UF894,1000_QL80_.jpg"
+                                            alt="">
+                                    </div>
+                                    <div class="image-text"><span class="text">Tomato ketchup</span></div>
+                                </div>
+
+                                <div class=" cards dsp">
+                                    <div class="image"><img class="card-img"
+                                            src="https://m.media-amazon.com/images/I/51z6wHdBrWL._UF1000,1000_QL80_.jpg"
+                                            alt="">
+                                    </div>
+                                    <div class="image-text"><span class="text">chivda Packet</span></div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <!-- page four finish -->
+            <!-- page-five -->
+            <!-- page-five -->
+
+            <div class="gap-right-pagefour"></div>
+
+        </div>
+        <div class="page-five">
+            <!-- rightgap -->
+            <div class="gap-left-pagefive"></div>
+            <!-- main center five -->
+            <div class="center-five">
+                <!-- long img -->
+                <div class="five-header"><img class="longimg"
+                        src="https://d1sl07a7h3d3fr.cloudfront.net/admin/store/pothys/banner/Final+5.jpg" alt=""></div>
+                <div class="five-main-card">
+                    <div class="five-card-one"><a href="./new-multipal page/toilet-cleaner-15.html"><img class="five-img"
+                        src="https://m.media-amazon.com/images/I/81Sdge3dy7L._UF1000,1000_QL80_.jpg" alt=""></a></div>
+                    <div class="five-card-two"><a href="./new-multipal page/toilet-cleaner-15.html"><img class="five-img"
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkRr0UyxHGwpyrs83LBEdndq7oGXxbTOxHHg&s"
+                        alt=""></a></div>
+                    <div class="five-card-three"><a href="./new-multipal page/toilet-cleaner-15.html"><img class="five-img"
+                            src="https://www.bbassets.com/media/uploads/p/xl/40038386_12-lizol-disinfectant-surface-floor-cleaner-liquid-floral-kills-999-germs.jpg"
+                            alt=""></a></div>
+                    <div class="five-card-four"><a href="./new-multipal page/ditergent-4.html"><img class="five-img"
+                        src="https://m.media-amazon.com/images/I/71brmyh4oEL._UF1000,1000_QL80_.jpg" alt=""></a></div>
+                    <div class="five-card-five"><a href="./new-multipal page/ditergent-4.html"><img class="five-img"
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZinVVa0JFCGJ35hTbODhpYlfDkRzFMFIaaA&s"
+                        alt=""></a></div>
+                </div>
+            </div>
+            <!-- left gap -->
+            <div class="gap-right-pagefive"></div>
+        </div>
+        <!-- page six -->
+        <!-- page-six -->
+        <div class="page-six">
+            <div class="gap-left-pagesix"></div>
+            <div class="six-center">
+                <!-- information -->
+                <div class="six-header">
+                    <div class="information-text">Information</div>
+                </div>
+                <!-- visit -->
+                <div class="visit">
+                    <div class="visit-one">
+                        <div class="visit-text">
+                            <div class="visit-textt">Visit our home shop foer a
+                                semless,shopping experince.Find everything <br>
+                                you need ,form groceries to home essential ,delivered quickly and <br> conventialy right
+                                doorstep.Quality products .exceptional service. <br><br>Fantastic Service and
+                                fastly
+                                Delivery ! Hight <br>
+                                quality product make shopping homea breeze . <br>
+                                Highly recommened this home shop !</div>
+                        </div>
+                    </div>
+                    <div class="visit-two"><button class="visit-button">VISIT
+                            NOW</button></div>
+                </div>
+                <!-- coustmer review -->
+
+            </div>
+            <div class="gap-right-pagesix"></div>
+        </div>
+        <!-- contact page -->
+        <!--contact page-->
+        <div class="contact-page">
+            <div class="contact-section"><br>
+                <div class="cs-heading"><b>Contact</b></div>
+                <!--contact section name-->
+                <div class="cs-name">
+                    <!--contact section gmail-->
+                    <div class="cs-gmail"><img class="image-one"
+                            src="https://cdn.dribbble.com/userupload/20093052/file/original-3ff725d308a378ebf86e39aa32768855.png?resize=752x&vertical=center"
+                            width="100vw" height="80vw"> <br><span class="Email"> Email</span>
+                        <br><br> <span class="gmail">pathansohal68@gmail.com</span>
+                    </div>
+                    <br><br>
+                    <!-- contact section whatsapp-->
+                    <div class="cs-whats-app"><img class="image-one"
+                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYf9qwEp3Mf7ARIXsXklZQz9Rer8EaI56KaA&s"
+                            width="115vw" height="90vh">
+                        <br> <span class="whats-app">Whats app</span> <br> <br><span
+                            class="mobile-number-one">9370390348</span>
+                    </div>
+                    <br><br>
+                    <!--contact section contact-->
+                    <div class="cs-contact">
+                        <img class="image-one"
+                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR72fxyTx6VFuKnfYO9sqSQOCQx43u7aHpUNg&s"
+                            width="80vw" height="80vw">
+                        <br> <span class="contact">Contact</span> <br><br><span
+                            class="mobile-number-two">9370390348</span>
+
+                    </div>
+                    <br><br>
+                    <!--contact section address-->
+                    <div class="cs-address"> <img class="image-one"
+                            src="https://png.pngtree.com/png-vector/20230413/ourmid/pngtree-3d-location-icon-clipart-in-transparent-background-vector-png-image_6704161.png"
+                            width="100vw" height="100vw">
+                        <br> <span class="address">Address</span> <br><br><span class="saoner"></span>
+                    </div>
+                </div>
+            </div>
+            <br>
+        </div>
+        <div class="last-footer">
+            <div class="footer-last-header">
+                <div>Home</div>
+                <div>About</div>
+                <div>Product</div>
+                <div>Contact</div>
+            </div>
+            <div class="footer-last-main"> Design & Developed : <a class="arsalan-khan" href="">Arsalan Khan</a></div>
+        </div>
+    </div>
+
+    </div>
+
+</body>
+
+
+</html>
