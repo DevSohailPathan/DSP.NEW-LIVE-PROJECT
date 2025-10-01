@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0;
+            background: var(--bg);
+            color: #222
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 36px auto;
+            padding: 20px
+        }
+
+
+        .card {
+            background: var(--card);
+            border-radius: 12px;
+            box-shadow: 0 6px 18px rgba(20, 20, 30, 0.06);
+            padding: 26px
+        }
+
+
+        .brand {
+            display: flex;
+            align-items: center;
+            gap: 14px
+        }
+
+        .logo {
+            width: 68px;
+            height: 68px;
+            border-radius: 10px;
+            background: linear-gradient(135deg, #fff, #f3f3f3);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 700;
+            color: #444
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 22px
+        }
+
+        p.lead {
+            margin: 10px 0 18px;
+            color: var(--muted)
+        }
+
+
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+            gap: 12px;
+            margin: 14px 0
+        }
+
+        .feature {
+            background: #fcfcfd;
+            border-radius: 10px;
+            padding: 12px;
+            border: 1px solid rgba(0, 0, 0, 0.04);
+            text-align: center
+        }
+
+        .feature strong {
+            display: block;
+            margin-bottom: 6px
+        }
+
+
+        .hero {
+            display: flex;
+            gap: 18px;
+            align-items: center
+        }
+
+        .hero-img {
+            flex: 0 0 160px;
+            height: 120px;
+            border-radius: 10px;
+            background: linear-gradient(135deg, #ffeccf, #fff);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #6b4b12
+        }
+
+
+        .contact {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 12px;
+            margin-top: 16px
+        }
+
+        .chip {
+            background: var(--accent);
+            color: #fff;
+            padding: 8px 12px;
+            border-radius: 999px;
+            font-weight: 600
+        }
+
+
+        footer {
+            margin-top: 18px;
+            color: var(--muted);
+            font-size: 13px
+        }
+
+
+        /* small screens */
+        @media (max-width:520px) {
+            .hero {
+                flex-direction: column;
+                align-items: flex-start
+            }
+
+            .hero-img {
+                width: 100%;
+                height: 140px
+            }
+        }
+    </style>
+    </style>
+</head>
+
+
+
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="brand">
+                <div class="logo">LOGO</div>
+                <div>
+                    <h1>Pathan Kirana Store</h1>
+                    <p class="lead">Aapka apna neighborhood kirana — taaza saman, sahi daam, aur friendly seva.</p>
+                </div>
+            </div>
+
+
+            <div class="hero" style="margin-top:12px">
+                <div style="flex:1">
+                    <p><strong>Hum kya dete hain</strong><br>
+                        Taaza rashan (daal, chawal, aata), masale, tel, snacks aur rozmarra ke household items — sab ek
+                        hi chhat ke neeche.</p>
+
+
+                    <div class="features">
+                        <div class="feature"><strong>Quality</strong> Taaza & trusted brands</div>
+                        <div class="feature"><strong>Prices</strong> Budget-friendly & fair</div>
+                        <div class="feature"><strong>Service</strong> Dosti bhari aur imandaar seva</div>
+                    </div>
+
+
+                    <p style="margin-top:6px">Aapki khushi hi hamari asli kamai hai. 💛</p>
+
+
+                    <div class="contact">
+                        <div class="chip">📍 Tishti (Bu)</div>
+                        <div class="chip">📞 9370390348</div>
+                        <div class="chip">📱 WhatsApp: [Number]</div>
+                    </div>
+                </div>
+
+
+                <div class="hero-img">Store<br>Photo</div>
+            </div>
+
+
+            <footer>
+                <div>Open: <strong>8:00 AM — 9:00 PM</strong> </div>
+            </footer>
+        </div>
+    </div>
+</body>
+
+</html>
+</body>
+
+</html>
